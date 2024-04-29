@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "final_project",
+    "section": "",
+    "text": "This is the landing page\nhi\nThis an example of a map"
+  },
+  {
+    "objectID": "Readme.html",
+    "href": "Readme.html",
+    "title": "My page",
+    "section": "",
+    "text": "# For your final project you will build a website displaying three pieces that show off:\nYou do not need to make new versions of these things. You can just move the files into this new project you’ve created. If you have kept organized this should be quick. If you have not kept organized remember that your github repos have your work in them. You are welcome to make new data pieces, but don’t spend to much time on that."
+  },
+  {
+    "objectID": "Readme.html#you-will-get-two-outcomes-from-this-project",
+    "href": "Readme.html#you-will-get-two-outcomes-from-this-project",
+    "title": "My page",
+    "section": "You will get two outcomes from this project:",
+    "text": "You will get two outcomes from this project:\n\nYou will learn a bit about how to publish a website on the internet.\nYou will understand the filing structure that R (and all programming languages) use."
+  },
+  {
+    "objectID": "Readme.html#requirements",
+    "href": "Readme.html#requirements",
+    "title": "My page",
+    "section": "Requirements:",
+    "text": "Requirements:\n\nAll your wrangling, SQL and mapping files must be individual files on different webpages. They must be rendered to html.\nFor each bit you must reflect on what you learned or why you like a particular piece (200 words max).\nYour website will have 5 pages minimum:\n\nLanding page - this will describe the class, what you did, your thoughts on it, and what the website contains, its a summary. You can add a bit about yourself, but no identifying information. Saying Intro to Data Science is okay, but you shouldn’t mention Smith College.\nOne page per data piece.\nAn about page so people can contact you to hire you (Add a different photo to the fake contact page). You can not add identifying info here.\n\nYou will make use of the nav bar.\nYour website should look professional use any of the skills from 192 or 100. Consider headers and links.\nYour website must be pushed to github and turned on and working. So please test it. When you are done submit the link to your site to the forum on moodle."
+  },
+  {
+    "objectID": "Readme.html#optional",
+    "href": "Readme.html#optional",
+    "title": "My page",
+    "section": "Optional:",
+    "text": "Optional:\n\nHere is the website for quarto websites.\nChange the theme of your website.\nCustomize your website using ideas from here."
+  },
+  {
+    "objectID": "Readme.html#a-few-things-to-note",
+    "href": "Readme.html#a-few-things-to-note",
+    "title": "My page",
+    "section": "A few things to note:",
+    "text": "A few things to note:\n\nI am meant to protect your identity as students, so please do not put your personal information on the website. Use the made up contact information for your contact. Don’t even say Smith College. Remember even if you pages are public your repos are private.\nAfter your website is graded, I’ll turn them off. If you would like you can turn them on and do whatever you want with it. Keep in mind when you graduate from Smith you’ll lose your Smith email and likely your repo/website. But you’ll still have them as files on your computer.\nThis is meant to be a simple skill that students last semester wished they knew how to do. It should not be very very time consuming. Make something that meet requirements then move on. You can perfect it over the summer."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "My name is Wheebuns chewiebag. My name was generated from this site. My photo is from here.\n\n\nIf you would like to contact me please do so at 248-434-5508"
+  },
+  {
+    "objectID": "examples/map_example.html",
+    "href": "examples/map_example.html",
+    "title": "Monarch Watch",
+    "section": "",
+    "text": "# I made the US state map for you.\n\nUSA_map &lt;-  maps::map(\"state\", plot = TRUE, fill = TRUE) |&gt; st_as_sf(coords = c(\"x\", \"y\"), crs = 4326)"
+  },
+  {
+    "objectID": "examples/example2.html",
+    "href": "examples/example2.html",
+    "title": "example2",
+    "section": "",
+    "text": "nothing here"
+  }
+]

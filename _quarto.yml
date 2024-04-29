@@ -36,6 +36,10 @@ website:
       href: https://mdsr-book.github.io/mdsr3e/
     
     right:
+    - icon: Map
+      href: examples/map_example.qmd
+    - text: example2
+      href: examples/example2.qmd
     - icon: github
       href: https://www.github.com
 

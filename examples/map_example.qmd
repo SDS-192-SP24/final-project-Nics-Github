@@ -1,0 +1,26 @@
+---
+title: "Monarch Watch"
+author: "Schwab"
+format: html
+editor: visual
+---
+
+```{r}
+#| include: false
+
+#install.packages("googlesheets4")
+library(googlesheets4)
+library(tidyverse)
+library(janitor)
+library(tidygeocoder)
+library(sf)
+library(leaflet)
+```
+
+```{r}
+# I made the US state map for you.
+
+USA_map <-  maps::map("state", plot = TRUE, fill = TRUE) |> st_as_sf(coords = c("x", "y"), crs = 4326)
+
+```
+

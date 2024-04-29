@@ -1,8 +1,12 @@
 ---
 title: "final_project"
-author: "student name"
+author: "Made up name"
+format: html
 ---
 
-```{r}
+This is the landing page
 
-```
+hi 
+
+
+This an example of [a map](examples/map_example.qmd)
